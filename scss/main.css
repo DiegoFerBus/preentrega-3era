@@ -62,7 +62,6 @@ nav li {
   display: inline-block;
   padding: 10px;
 }
-
 nav li a {
   color: darkblue;
   font-weight: bold;
@@ -252,12 +251,10 @@ h2 {
   padding: 0;
   text-align: right;
 }
-
 .priv-terminos li {
   display: inline;
   margin-right: 10px;
 }
-
 .priv-terminos li a {
   text-decoration: none;
   color: white;
