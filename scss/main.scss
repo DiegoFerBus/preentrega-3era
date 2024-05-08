@@ -1,3 +1,8 @@
+// Utilidades y Reset
+@import './utilities/reset';
+@import './utilities/colors'
+
+
 /* tipografia */
 /* font-family: "Montserrat", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -38,9 +43,10 @@ header {
     justify-content: center;
 }
 
+/* Quitamos los estilos de lista */
+
 nav ul {
     list-style: none;
-    /* Quitamos los estilos de lista */
     display: flex;
 }
 
@@ -55,7 +61,7 @@ nav {
         padding: 10px;
 
         a {
-            color: darkblue;
+            color: $menunav;
             font-weight: bold;
             text-decoration: none;
         }
@@ -68,13 +74,13 @@ nav {
 nav li {
     display: inline-block;
     padding: 10px;
-  
+
     a {
-      color: darkblue;
-      font-weight: bold;
-      text-decoration: none;
+        color: $menunav;
+        font-weight: bold;
+        text-decoration: none;
     }
-  }
+}
 
 
 /* --- Main General --- */
