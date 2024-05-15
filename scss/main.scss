@@ -390,13 +390,38 @@ body {
     flex-direction: column;
 }
 
-.contact-footer{
+.contact-footer {
     min-height: 1080px;
 }
 
-.titulo-pagina{
+.titulo-pagina {
     font-size: xx-large;
     font-style: oblique;
     font-weight: bold;
     text-shadow: 10px 10px 2px rgb(200, 195, 195);
 }
+
+.desc-poster {
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 30px;
+    padding: 100px;
+    font-weight: bold;
+    color: rgb(224, 88, 10);
+    text-align: center;
+}
+
+.desc-miniatura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    hyphens: auto;
+    max-width: 300px;
+}
+
+.desc-miniatura img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
