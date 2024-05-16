@@ -26,7 +26,7 @@ header {
   /* Ajuste del espacio alrededor de los elementos */ }
 
 .logo img {
-  width: 100px;
+  width: 200px;
   /* Ancho de la imagen del logo */
   height: auto;
   /* Altura automática para mantener la proporción */ }
@@ -263,7 +263,9 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: auto;
+  min-height: 690px;
+  padding: 30px 0px;
   transition: transform 0.3s ease; }
   .content:hover {
     transform: scale(1.1); }
@@ -304,7 +306,7 @@ body {
   justify-content: space-evenly;
   display: flex;
   font-size: 30px;
-  padding: 100px;
+  padding: 30px;
   font-weight: bold;
   color: #e0580a;
   text-align: center; }

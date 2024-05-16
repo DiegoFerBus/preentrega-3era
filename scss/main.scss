@@ -32,7 +32,7 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 200px;
     /* Ancho de la imagen del logo */
     height: auto;
     /* Altura automática para mantener la proporción */
@@ -338,9 +338,12 @@ body {
 }
 
 .content {
+    @extend .poster-avatar;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: auto;
+    min-height: 690px;
+    padding: 30px 0px;
     transition: transform 0.3s ease;
 
     &:hover {
@@ -405,7 +408,7 @@ body {
     justify-content: space-evenly;
     display: flex;
     font-size: 30px;
-    padding: 100px;
+    padding: 30px;
     font-weight: bold;
     color: rgb(224, 88, 10);
     text-align: center;
@@ -424,4 +427,3 @@ body {
     max-width: 100%;
     margin-bottom: 10px;
 }
-
